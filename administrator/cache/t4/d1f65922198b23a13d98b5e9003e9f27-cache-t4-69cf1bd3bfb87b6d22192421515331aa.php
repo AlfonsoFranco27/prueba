@@ -1,4 +1,4 @@
-<?php die("Access Denied"); ?>#x#a:6:{s:6:"layout";s:6321:"<!DOCTYPE html>
+<?php die("Access Denied"); ?>#x#a:6:{s:6:"layout";s:6445:"<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
 
 <head>
@@ -26,9 +26,10 @@
   
   <div class="t4-offcanvas" data-offcanvas-options='{"modifiers":"right,overlay"}' id="off-canvas-right" role="complementary" style="display:none;">
 	<div class="t4-off-canvas-header">
-	 		  <a href="http://localhost/prueba/" title="Stark.">
+	 		  <a href="http://localhost/prueba/" title="cuerna">
 	  	    	  	
-	    	      <span class="site-name">Stark.</span>	      	    
+	    	      <img class="logo-img" src="images/logo.png#joomlaImage://local-images/logo.png?width=400&height=600" alt="cuerna" />
+	    
 	  	  </a>
 	  		<button type="button" class="close js-offcanvas-close" data-dismiss="modal" aria-hidden="true">×</button>
 	</div>
@@ -133,20 +134,30 @@
 
 <div id="t4-footnav" class="t4-section  t4-footnav  t4-palette-dark">
 <div class="t4-section-inner container"><div class="t4-row row">
-<div class="t4-col logo col-sm-12 col-md-3">
-<jdoc:include type="element" name="logo"<?php echo  ?> />
+<div class="t4-col logofooter col-sm-12 col-md-4">
+<!-- html in here -->
+<div style=" margin-top:0px;">
+  <img src="images/logo.png" alt="logo" width="200px">
 </div>
-<div class="t4-col footnav-1 col-sm col-md-3">
-<jdoc:include type="modules" name="footnav-1" style="JAxhtml" />
 </div>
-<div class="t4-col footnav-2 col-sm col-md-3">
-<jdoc:include type="modules" name="footnav-2" style="JAxhtml" />
+<div class="t4-col contacto col-sm col-md-3">
+<!-- html in here -->
+<h1>Contacto</h1>
+<p>Motolinía 2, Cuernavaca Centro, Centro, 62000 Cuernavaca, Mor.</p>
+<p>C.P. 62000</p>
+<p>Tel: (+52) 01 777 329 5500</p>
 </div>
-<div class="t4-col footnav-3 col-sm col-md-3">
-<jdoc:include type="modules" name="footnav-3" style="JAxhtml" />
+<div class="t4-col numeros col-sm col-md-5">
+<!-- html in here -->
+<h5>911</h5>
+<p>Atencion a emergencias</p>
+<h5>066</h5>
+<p>policia emergencias</p>
+<h5>071</h5>
+<p>reportes en fallas de luz</p>
 </div>
 </div></div>
-</div><a href='javascript:' id='back-to-top'><i class='fa fa-chevron-up'></i></a>
+</div>
       </div>
     </div>
   </div>
